@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.NavLink a{
+  color: white;
+  text-decoration: none;
+  font: size 100px;
+}
+.stylenav a{
+  text-decoration: none;
+  padding-left: 4px;
+}
