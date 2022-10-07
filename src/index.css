@@ -5,9 +5,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("");
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.NavLink {
+  color: blue;
+  text-decoration: none;
+  font: size 400px;
+  padding-right: 150px;
+  margin-right: 200px;
+}
+
+.stylenav {
+  text-decoration: none;
+  padding-left: 4px;
+  font-size: larger;
+  font-weight: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputform[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.logo{
+
+}
+.aboutPage{
+  color:blue;
+  text-align: center;
+}
+.logoHead{
+  margin-left:350px;
+}
+.button{
+  background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.spanCss{
+  margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    color: blue;
+}
+.commentSection{
+  color: black;
+}
+.submitBtn{
+  background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+  width: 100%;
+  background-color:gray;
+  height: 210px;
+  bottom: 0;
+  position: fixed;
+}
+

@@ -34,31 +34,31 @@ function Home() {
       <div key={bik.id}>
         <img src={bik.image} />
         <h2>
-          <span>Name: </span>
+          <span className="spanCss">Name: </span>
           {bik.name}
         </h2>
         <p>
-          <span>Company: </span>
+          <span className="spanCss">Company: </span>
           {bik.company}
         </p>
         <p>
-          <span>City: </span>
+          <span className="spanCss">City: </span>
           {bik.city}
         </p>
         <p>
-          <span>Likes: </span>
+          <span className="spanCss">Likes: </span>
           {like}
         </p>
         <p>
-          <span>DisLikes: </span>
+          <span className="spanCss">DisLikes: </span>
           {disLike}
         </p>
         <button onClick={handleLike}>💙 </button>
         <button onClick={handleDislike}>👎</button>
         <div>
           <form onSubmit={handleSubmit}>
-            <textarea placeholder="Comment..." />
-            <input type="Submit" />
+            <textarea placeholder="Comment..." className="commentSection" />
+            <input type="Submit" className="submitBtn" />
           </form>
         </div>
       </div>
